@@ -10,8 +10,15 @@
 <body>
     <h1>Input - text</h1>
 
+    <!-- Exemplo 1 -->
     <input type="text" name="nome" placeholder="Digite o seu nome">
     <input type="text" name="e-mail" placeholder="Insira o seu e-mail">
+    <br><br>
+
+    <!-- Exemplo 2, utilizando required e min-max lenght -->
+    <h2>Utilizando min-max length</h2>
+    <label for="name">Nome (4 - 8 caractéres):</label>
+    <input type="text" name="nome" id="name" minlength="4" maxlength="8" size="10" required>
 </body>
 
 </html>
